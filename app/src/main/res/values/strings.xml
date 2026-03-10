@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RideWise</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="estimate_fare">Estimate Fare</string>
+</resources>

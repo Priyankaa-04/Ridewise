@@ -1,0 +1,18 @@
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="pastelYellow">#FFF4B8</color>
+    <color name="pastelYellowDark">#FFE47A</color>
+    <color name="pastelText">#6A6862</color>
+    <color name="pastelWhite">#FFFFFF</color>
+    <color name="pastelGrey">#EDEDED</color>
+    <color name="pastelShadow">#33000000</color>
+    <color name="pastelBackground">#FFFDF8</color>
+    <color name="pastelPurple">#B39DDB</color>
+
+</resources>

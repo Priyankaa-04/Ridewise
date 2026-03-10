@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7D6">  <!-- Pastel yellow background -->
+
+    <!-- Cute Pastel Car Image -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/pastel_car"
+        android:layout_centerInParent="true"
+        android:contentDescription="app logo"/>
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RideWise ✨"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#3A2E48"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>

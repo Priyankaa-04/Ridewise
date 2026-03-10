@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF7D6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <!-- Cute Pastel Car PNG -->
+        <ImageView
+            android:id="@+id/loginCar"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:src="@drawable/pastel_car"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="login car image" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back to RideWise ✨"
+            android:textColor="#6A4FA3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email Address"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:background="@drawable/pastel_yellow_btn"
+            android:layout_marginTop="25dp"/>
+
+        <!-- Go to Signup -->
+        <TextView
+            android:id="@+id/goToSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign Up"
+            android:textColor="#6A4FA3"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Loading Spinner -->
+        <ImageView
+            android:id="@+id/loadingSpinner"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pastel_loading"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
